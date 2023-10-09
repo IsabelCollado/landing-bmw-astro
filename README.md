@@ -1,7 +1,7 @@
 # BMW LANDING PAGE | IsabelCollado
 
 - Hi there people! 👋🏻
-- My name is Isabel Collado Herrera and this a JavaScript's project called **Tesla landing**.
+- My name is Isabel Collado Herrera and this a JavaScript's project called **BMW landing**.
 
 ## -- About this project 📋 --
 
