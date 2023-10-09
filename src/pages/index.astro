@@ -1,0 +1,33 @@
+---
+import HeroSection from '../components/HeroSection.astro';
+import LandingHeader from '../components/LandingHeader.astro';
+import Layout from '../layouts/Layout.astro';
+import BmwiX1 from '../components/BmwiX1.astro';
+import BmwiX3 from '../components/BmwiX3.astro';
+import Bmwi4 from '../components/Bmwi4.astro';
+import Bmwi7 from '../components/Bmwi7.astro';
+---
+
+<Layout title="BMW - The car of your dreams">
+  <LandingHeader />
+
+  <main
+    class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth"
+  >
+    <div class="snap-center">
+      <HeroSection />
+    </div>
+    <div class="snap-center">
+      <BmwiX1 />
+    </div>
+    <div class="snap-center">
+      <BmwiX3 />
+    </div>
+    <div class="snap-center">
+      <Bmwi4 />
+    </div>
+    <div class="snap-center">
+      <Bmwi7 />
+    </div>
+  </main>
+</Layout>
